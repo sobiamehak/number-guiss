@@ -62,4 +62,4 @@ else:
         st.session_state.number = random.randint(lower_bound, upper_bound)
         st.session_state.guesses = 0
         st.session_state.game_over = False
-        st.experimental_rerun()
+        st.rerun()
